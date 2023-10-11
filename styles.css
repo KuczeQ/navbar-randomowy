@@ -6,19 +6,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 #container {
     text-align: center;
-    position: relative; 
+    position: relative;
+    display: flex;
 }
 
 #navbar {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    background-color: rgba(255, 255, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 0, 0.5);
     padding: 10px;
 }
 
@@ -27,3 +29,30 @@ body {
     text-decoration: none;
     margin: 0 10px;
 }
+
+#sidebar {
+    position: absolute;
+    top: 10;
+    right: 10;
+    bottom: 0;
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 681px;
+    width: 100px;
+    z-index: 1;
+}
+
+#sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 120px; 
+}
+
+#sidebar a:hover {
+    background-color: rgba(255, 99, 71, 0.5);
+}
+
+#navbar a:hover {
+    background-color: rgba(255, 99, 71, 0.5);
+}
+
