@@ -49,10 +49,46 @@ body {
 }
 
 #sidebar a:hover {
+    color: red;
     background-color: rgba(255, 99, 71, 0.5);
 }
 
 #navbar a:hover {
+    color: red;
     background-color: rgba(255, 99, 71, 0.5);
 }
 
+footer {
+    background-color: rgba(0, 255, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34.8px;
+    width: 1210px; 
+    margin: 0 auto; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#links {
+    display: flex;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#links a:hover {
+    background-color: rgba(255, 99, 71, 0.5);
+}
